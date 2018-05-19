@@ -1,0 +1,179 @@
+body {
+  background-color: #1789D0;
+  font-family: 'Acme', sans-serif;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.mainn {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.mainnn {
+  background-color: #E3EFFB;
+}
+.abs {
+  position: absolute;
+  margin-top: 200px;
+}
+
+.services {
+  background-color: #206AA7;
+  color: white;
+}
+
+.imgs {
+  min-width: 20px;
+  padding: 0;
+}
+
+.smaul {
+  font-size: 10px;
+}
+
+.icons_text p {
+  color: grey;
+}
+
+.heig_ht {
+  min-height: 120px;
+  padding-top: 5px;
+}
+
+.icons_text a:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 320px) {
+  .abs {
+    margin-top: 85px;
+  }
+  .services {
+    padding: 5px;
+  }
+  .heig_ht {
+    min-height: 15px;
+  }
+  .heig_ht p{
+    font-size: 8px;
+  }
+}
+
+@media only screen and (min-width: 321px) and (max-width:400px) {
+  .abs {
+    margin-top: 95px;
+  }
+  .services {
+    padding: 5px;
+    padding-bottom: 0;
+  }
+  .heig_ht {
+    min-height: 25px;
+  }
+}
+
+@media only screen and (min-width: 401px) and (max-width:500px) {
+  .abs {
+    margin-top: 105px;
+  }
+  .services {
+    padding: 5px;
+  }
+  .heig_ht {
+    min-height: 55px;
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 500px) and (max-width:768px) {
+  .abs {
+    margin-top: 120px;
+  }
+  .services {
+    padding: 5px;
+    min-height: 40px;
+    font-size: 20px;
+  }
+  .heig_ht {
+    min-height: 65px;
+    padding-top: 10px;
+  }
+  .smaul {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px) {
+  .abs {
+    margin-top: 150px;
+  }
+  .services {
+    padding: 5px;
+    min-height: 60px;
+    padding-top: 5px;
+    font-size: 30px;
+  }
+  .heig_ht {
+    min-height: 100px;
+    padding-top: 35px;
+  }
+  .smaul {
+    font-size: 15px;
+  }
+  .imgs {
+    width: 50%;
+    padding-top: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width:1200px) {
+  .abs {
+    margin-top: 180px;
+  }
+  .services {
+    padding: 5px;
+    min-height: 80px;
+    padding-top: 15px;
+    font-size: 35px;
+  }
+  .heig_ht {
+    min-height: 130px;
+    padding-top: 50px;
+  }
+  .smaul {
+    font-size: 20px;
+  }
+  .imgs {
+    width: 50%;
+    padding-top: 20px;
+  }
+  .icons_text p {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  .services {
+    padding: 5px;
+    min-height: 120px;
+    padding-top: 35px;
+    font-size: 35px;
+  }
+  .heig_ht {
+    min-height: 150px;
+    padding-top: 60px;
+  }
+  .smaul {
+    font-size: 25px;
+  }
+  .imgs {
+    width: 50%;
+    padding-top: 25px;
+  }
+  .icons_text p {
+    font-size: 25px;
+  }
+}

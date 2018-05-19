@@ -1,0 +1,138 @@
+body{
+  background-color: #44B357;
+  font-family: 'Libre Baskerville', serif;
+}
+.head_er
+{
+  color:white;
+  margin-top:100px;
+}
+.form-group{
+  width: 50%;
+  display: block;
+  margin:auto;
+  margin-top: 30px;
+}
+.form-control{
+  height: 50px;
+  padding-left: 70px;
+}
+.btn{
+  width: 50%;
+  display: block;
+  margin: auto;
+  margin-top: 30px;
+  height: 50px;
+}
+.head_er{
+  margin-top: 250px;
+}
+.kolo{
+  display: block;
+margin: auto;
+  width:120px;
+  min-height: 120px;
+  border:2px solid white;
+  background-color: white;
+  border-radius: 150px;
+}
+.icons{
+  font-size: 25px;
+  position: absolute;
+  border-right: 2px solid grey;
+  margin-top:6px;
+  margin-left: 8px;
+}
+.icon-home{
+  display: block;
+  vertical-align: middle;
+  margin-top:25px;
+}
+.ikonka a:hover{
+  font-size:45px;
+}
+.link >a{
+  color:white;
+}
+.link{
+  margin-top:10px;
+}
+@media only screen and (max-width:400px){
+  .head_er h1{
+    font-size:1.1rem;
+  }
+  .head_er{
+    margin-top:80px;
+  }
+  .form-control{
+    font-size: 0.7rem;
+  }
+  .icon-home::before{
+    position: absolute;
+    font-size: 20px;
+    float:left;
+    margin-right:35px;
+    padding-right: 25px;
+    margin-left: 0;
+  }
+  .icon-home{
+    position: absolute;
+    margin-top: 12px;
+    margin-right: 12px;
+    font-size: 25px;
+  }
+  .ikonka{
+  }
+  .kolo{
+    min-height: 50px;
+    border:2px solid white;
+    background-color: white;
+    border-radius: 80px;
+
+  }
+  .link >a{
+    font-size:0.5rem;
+  }
+}
+@media only screen and (min-width:400px) and (max-width:580px){
+  .head_er h1{
+    font-size:1.1rem;
+  }
+  .head_er{
+    margin-top: 100px;
+  }
+  .icon-home{
+    margin-top:0;
+  }
+  .icon-home::before{
+    margin-left:0;
+    font-size: 30px;
+    margin-top:20px;
+  }
+  .kolo{
+    min-height: 75px;
+  }
+  .link >a{
+    font-size:0.8rem;
+  }
+}
+@media only screen and (min-width:581px) and (max-width:767px){
+  .kolo{
+    min-height: 85px;
+  }
+  .icon-home{
+    margin-top:0;
+  }
+  .icon-home::before{
+    margin-left:0;
+    font-size: 40px;
+    margin-top:20px;
+    margin-left:6px;
+  }
+  .head_er{
+    margin-top: 150px;
+  }
+  .head_er h1{
+    font-size: 2rem;
+  }
+}
